@@ -38,15 +38,31 @@ Construire un mini-service qui :
 
 #### exemple d'illustration du graph:
 ```mermaid
+%%{ init: { "flowchart": { "nodeSpacing": 80, "rankSpacing": 60 } } }%%
 graph TD
-    %% Nœud central (remplacez le texte par la requête réelle)
-    Q["Requête : laser-cladded Inconel turbine blades"]
+    %% Nœud central
+    Q((Requête : solutions acoustiques </br> de sonorisation))
 
-    %% Nœuds secondaires = URL des résultats (remplacez par vos URLs)
-    Q --> U1["https://www.example.com/article-A"]
-    Q --> U2["https://supplier-b.com/info"]
-    Q --> U3["https://patentsite.org/patent/XYZ123"]
-    Q --> U4["https://news-site.net/industry-update"]
+    %% Nœuds secondaires
+    U1("https://ecib-bruit.com/")
+    U2("https://alfacoustic.com/")
+    U3("https://www.french-acoustics.com/")
+    U4("https://www.a-cloud.fr")
+
+    %% Liens « vrais » vers la requête
+    Q --- U1
+    Q --- U2
+    Q --- U3
+    Q --- U4
+
+    %% Chaîne invisible pour écarter les nœuds en cercle
+    U1 -.-> U2
+    U2 -.-> U3
+    U3 -.-> U4
+    U4 -.-> U1
+
+    %% (Facultatif) rendre ces liens invisibles
+    linkStyle 4,5,6,7 stroke:transparent
 ```
 
 ---
