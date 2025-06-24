@@ -36,6 +36,19 @@ Construire un mini-service qui :
 | **Démo front (React ou HTML simple)** | Barre de recherche → appelle `/api/graph` → importe dynamiquement `/components/result-graph.js` puis :<br>`<result-graph data-endpoint="…"></result-graph>`                                                                                                                                                                                                                        |
 | **Qualité projet**                    | • TypeScript strict partout.<br>• Tests unitaires (builder, cache) + 1 test E2E (Playwright/Cypress).<br>• `docker-compose up` démarre API, cache, serveur statique.<br>• README clair (+ diagramme simple).                                                                                                                                                                       |
 
+#### exemple d'illustration du graph:
+```mermaid
+graph TD
+    %% Nœud central (remplacez le texte par la requête réelle)
+    Q["Requête : laser-cladded Inconel turbine blades"]
+
+    %% Nœuds secondaires = URL des résultats (remplacez par vos URLs)
+    Q --> U1["https://www.example.com/article-A"]
+    Q --> U2["https://supplier-b.com/info"]
+    Q --> U3["https://patentsite.org/patent/XYZ123"]
+    Q --> U4["https://news-site.net/industry-update"]
+```
+
 ---
 
 ## 4. Critères d’évaluation (100 pts + 10 bonus)
