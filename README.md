@@ -1,7 +1,5 @@
 # 🚀 Test Technique – **“Context Lens”**
 
-*(À remettre tel quel au/à la candidat·e)*
-
 ## 1. Contexte
 
 Votre mission chez **DARYL** est d’aider les équipes commerciales de l’industrie à décider rapidement si un nouveau projet client est “dans le scope” ou non.
