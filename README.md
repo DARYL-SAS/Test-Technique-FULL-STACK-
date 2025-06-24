@@ -44,7 +44,7 @@ graph TD
     Q((Requête : solutions acoustiques </br> de sonorisation))
 
     %% Nœuds secondaires
-    U1[fournisseur 1]("https://ecib-bruit.com/")
+    U1([fournisseur1](https://ecib-bruit.com/))
     U2("https://alfacoustic.com/")
     U3("https://www.french-acoustics.com/")
     U4("https://www.a-cloud.fr")
