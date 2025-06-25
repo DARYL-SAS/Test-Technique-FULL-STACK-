@@ -83,7 +83,7 @@ graph TD
 
 ## 5. Ressources fournies
 
-* **Clé Tavily** (dans `.env`, variable `TAVILY_API_KEY`). Voici le lien du secret [https://eu.onetimesecret.com/secret/4a79fy438lkcxj8j3dlbn2zzouj4861](https://eu.onetimesecret.com/secret/4a79fy438lkcxj8j3dlbn2zzouj4861) ( copier et coller dans votre `.env` )
+* **Clé Tavily** (dans `.env`, variable `TAVILY_API_KEY`). Voici le lien du secret [https://vault.bitwarden.eu/#/send/ol32tSm6rE2jArMHAI32Tg/fuQ-hP4dnAPH5C1Wc03s2w](https://vault.bitwarden.eu/#/send/ol32tSm6rE2jArMHAI32Tg/fuQ-hP4dnAPH5C1Wc03s2w) ( copier et coller dans votre `.env` )
 * Palette de couleurs et logo (optionnel).
    - #6366F1
    - #FFFFFF
